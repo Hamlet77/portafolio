@@ -1,0 +1,18 @@
+main{
+    display:flex ;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: ;
+    
+    text-transform: lowercase;
+}
+
+.mensaje{
+    background-image: url(/images/Muñeco.png);
+    background-repeat: no-repeat;
+
+}
+

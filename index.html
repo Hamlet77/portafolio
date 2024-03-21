@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>AluEncriptador</title>
+</head>
+<body>
+    <!-- <nav>NAV</nav> -->
+    <!-- <header>HEADER</header> -->
+    <main>
+        <section>
+            <textarea id="inputText" class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <input class="btn-encriptar" type="button" value="Encriptar" onclick="simulateEncryption()">
+                <input class="btn-desencriptar" type="button" value="DesEncriptar" onclick="simulateDecryption()">
+
+            </div>
+        </section>
+        <section>
+            <div>
+                <textarea id="encryptedOutput" class="mensaje" cols="30" rows="10">Área para mostrar el texto encriptado/desencriptado.</textarea>
+            </div>            
+            <div>
+                <input class="copiar" type="button" value="Copiar" onclick="copiar()">
+
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h6>Creado por Marcial Wills</h6> <!-- Task Extra! of Card "Elementos de la página" -->
+        
+    </footer>
+<script src="/script.js"></script>
+</body>
+</html>
